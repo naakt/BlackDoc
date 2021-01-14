@@ -1,0 +1,31 @@
+# Dependencies
+markdown:         kramdown
+highlighter:      rouge
+
+# Setup
+title:           HAT 
+tagline:         Three Basic Users
+description:      "Digital Doodles and Projects"
+url:              www.besoir.com
+baseurl:          /
+                  # the optional subpath of your site, e.g. "/my-jekyll-site/"
+                  # This will apply to all pages in your Jekyll site.
+
+author:
+  name:           H.A.T
+  url:            www.besoir.com
+
+paginate:         5
+# paginate_path:    '/page:num'
+                    # Or '/my-jekyll-site/page:num' if you want to move your index pages
+
+plugins:
+  - jekyll-feed
+  - jekyll-gist
+  - jekyll-paginate
+
+# Custom vars
+version:            1.0.0
+
+github:
+  repo:             none
