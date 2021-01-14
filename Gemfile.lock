@@ -29,18 +29,7 @@ GEM
     i18n (0.9.5)
       concurrent-ruby (~> 1.0)
     jekyll (3.9.0)
-      addressable (~> 2.4)
-      colorator (~> 1.0)
-      em-websocket (~> 0.5)
-      i18n (~> 0.7)
-      jekyll-sass-converter (~> 1.0)
-      jekyll-watch (~> 2.0)
       kramdown (>= 1.17, < 3)
-      liquid (~> 4.0)
-      mercenary (~> 0.3.3)
-      pathutil (~> 0.9)
-      rouge (>= 1.7, < 4)
-      safe_yaml (~> 1.0)
     jekyll-feed (0.15.1)
       jekyll (>= 3.7, < 5.0)
     jekyll-gist (1.5.0)
@@ -74,10 +63,6 @@ GEM
     ruby2_keywords (0.0.2)
     safe_yaml (1.0.5)
     sass (3.7.4)
-      sass-listen (~> 4.0.0)
-    sass-listen (4.0.0)
-      rb-fsevent (~> 0.9, >= 0.9.4)
-      rb-inotify (~> 0.9, >= 0.9.7)
     sawyer (0.8.2)
       addressable (>= 2.3.5)
       faraday (> 0.8, < 2.0)
@@ -88,7 +73,7 @@ PLATFORMS
 DEPENDENCIES
   bundler (~> 1.12)
   jekyll-theme-blackdoc!
+<<<<<<< HEAD
   kramdown-parser-gfm
-
 BUNDLED WITH
    1.16.1
